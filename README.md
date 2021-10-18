@@ -11,7 +11,7 @@ Built a calculator for Math-magicians Inc using create-react-app. Math-magicians
 - ES6
 
 ## Heroku link
-[click me](https://dashboard.heroku.com/apps/leon-calc)
+[click me](https://leon-calc.herokuapp.com)
 
 ## Author
 
