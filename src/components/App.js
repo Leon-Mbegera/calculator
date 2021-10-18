@@ -1,5 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import Display from './Display.js'
+import ButtonPanel from './ButtonPanel'
 
 const App = () => {
   return (
@@ -9,3 +10,5 @@ const App = () => {
     </React.Fragment>
   )
 }
+
+export default App;
