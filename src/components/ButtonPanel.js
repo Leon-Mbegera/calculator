@@ -1,18 +1,42 @@
 import React from 'react'
+import Button from './Button.js'
 
-const ButtonPanel = props => {
-
-  const group1 = ['AC', '+/-', '%', '÷']
-  const group2 = ['7', '8', '9', 'x']  
-  const group3 = ['4', '5', '6', '-']  
-  const group4 = ['0', '.', '=']  
+const ButtonPanel = () => {
 
   return(
     <div>
-      <div>{group1[0], group1[1], group1[2], group1[3]}</div>
-      <div>{group2[0], group2[1], group2[2], group2[3]}</div>
-      <div>{group3[0], group3[1], group3[2], group3[3]}</div>
-      <div>{group4[0], group4[1], group4[2]}</div>
+      <div>
+        <Button buttonName='AC' />
+        <Button buttonName='+/-' />
+        <Button buttonName='%' />
+        <Button buttonName='÷' />
+      </div>
+      <div>
+        <Button buttonName='7' />
+        <Button buttonName='8' />
+        <Button buttonName='9' />
+        <Button buttonName='x' />
+      </div>
+      <div>
+        <Button buttonName='4' />
+        <Button buttonName='5' />
+        <Button buttonName='6' />
+        <Button buttonName='-' />
+      </div>
+      <div>
+        <Button buttonName='1' />
+        <Button buttonName='2' />
+        <Button buttonName='3' />
+        <Button buttonName='+' />
+      </div>
+      <div>
+        <Button buttonName='0' />
+        <Button buttonName='.' />
+        <Button buttonName='=' />
+      </div>
+      
     </div>
   ) 
 }
+
+export default ButtonPanel;
