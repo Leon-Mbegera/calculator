@@ -1,14 +1,12 @@
-import React from 'react'
-import Display from './Display.js'
-import ButtonPanel from './ButtonPanel'
+import React from 'react';
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 
-const App = () => {
-  return (
-    <React.Fragment>
-      <Display />
-      <ButtonPanel />
-    </React.Fragment>
-  )
-}
+const App = () => (
+  <>
+    <Display />
+    <ButtonPanel />
+  </>
+);
 
 export default App;
