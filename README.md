@@ -10,6 +10,9 @@ Built a calculator for Math-magicians Inc using create-react-app. Math-magicians
 - CSS
 - ES6
 
+## Heroku link
+[click me](https://dashboard.heroku.com/apps/leon-calc)
+
 ## Author
 
 👤 **Leon**
