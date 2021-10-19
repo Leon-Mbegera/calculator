@@ -1,26 +1,26 @@
-import FatTony from 'big.js'
+import FatTony from 'big.js';
 
-const Operate = (numberOne, numberTwo, operation) => {
+const Operate = (numOne, numTwo, operation) => {
   let output;
-  let numberOne = new FatTony(numberOne)
-  let numberTwo = new FatTony(numberTwo)
+  const numberOne = new FatTony(numOne);
+  const numberTwo = new FatTony(numTwo);
 
   if (operation === '-') {
-    output = numberOne - numberTwo
+    output = numberOne - numberTwo;
   } else if (operation === '+') {
-    output = numberOne + numberTwo
+    output = numberOne + numberTwo;
   } else if (operation === 'x') {
-    output = numberOne * numberTwo
+    output = numberOne * numberTwo;
   } else if (operation === '÷') {
-    output = numberOne / numberTwo
+    output = numberOne / numberTwo;
   } else if (operation === '%') {
     if (numberOne) {
-      output = numberOne * 0.01
+      output = numberOne * 0.01;
     } else if (numberTwo) {
-      output = numberTwo * 0.01
+      output = numberTwo * 0.01;
     }
   }
-  return output;
-}
+  return output.toString();
+};
 
 export default Operate;
