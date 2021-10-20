@@ -27,8 +27,8 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Display show={total} />
-        <ButtonPanel clickHandler={handleClick} />
+        <Display show={this.state.total || this.state.next} />
+        <ButtonPanel clickHandler={() => handleClick(buttonName)} />
       </>
     );
   }
