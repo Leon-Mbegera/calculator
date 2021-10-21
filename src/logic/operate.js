@@ -6,18 +6,18 @@ const Operate = (numOne, numTwo, operation) => {
   const numberTwo = new FatTony(numTwo);
 
   if (operation === '-') {
-    output = numberOne - numberTwo;
+    output = numberOne.minus(numberTwo);
   } else if (operation === '+') {
-    output = numberOne + numberTwo;
+    output = numberOne.plus(numberTwo);
   } else if (operation === 'x') {
-    output = numberOne * numberTwo;
+    output = numberOne.times(numberTwo);
   } else if (operation === '÷') {
     output = numberOne / numberTwo;
   } else if (operation === '%') {
     if (numberOne) {
-      output = numberOne * 0.01;
+      output = numberOne.div(0.01);
     } else if (numberTwo) {
-      output = numberTwo * 0.01;
+      output = numberTwo.div(100);
     }
   }
   return output.toString();
