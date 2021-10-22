@@ -5,6 +5,7 @@ const Calculate = (dataObject, buttonName) => {
 
   const digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
   const sign = ['-', 'x', '÷', '+'];
+  let reset = false;
 
   if (buttonName === 'AC') {
     total = null;
@@ -14,7 +15,7 @@ const Calculate = (dataObject, buttonName) => {
 
   if (buttonName === '+/-') {
     total = `${(total *= 1)}`;
-    next *= 1;
+    next = total;
   }
 
   if (buttonName === '%') {
