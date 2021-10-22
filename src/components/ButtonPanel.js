@@ -2,42 +2,48 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-const ButtonPanel = (props) => {
-  const { clickHandler } = props;
+function clickButton(label, handleClick) {
+  return <Button show={label} onClick={() => handleClick(label)} />;
+}
 
+function ButtonPanel({ handleClick }) {
   return (
     <div>
       <div>
-        <Button buttonName="AC" handleClick={clickHandler} />
-        <Button buttonName="+/-" handleClick={clickHandler} />
-        <Button buttonName="%" handleClick={clickHandler} />
-        <Button buttonName="÷" handleClick={clickHandler} />
+        {clickButton('AC', handleClick)}
+        {clickButton('+/-', handleClick)}
+        {clickButton('%', handleClick)}
+        {clickButton('÷', handleClick)}
       </div>
       <div>
-        <Button buttonName="7" handleClick={clickHandler} />
-        <Button buttonName="8" handleClick={clickHandler} />
-        <Button buttonName="9" handleClick={clickHandler} />
-        <Button buttonName="x" handleClick={clickHandler} />
+        {clickButton('7', handleClick)}
+        {clickButton('8', handleClick)}
+        {clickButton('9', handleClick)}
+        {clickButton('x', handleClick)}
       </div>
       <div>
-        <Button buttonName="4" handleClick={clickHandler} />
-        <Button buttonName="5" handleClick={clickHandler} />
-        <Button buttonName="6" handleClick={clickHandler} />
-        <Button buttonName="-" handleClick={clickHandler} />
+        {clickButton('4', handleClick)}
+        {clickButton('5', handleClick)}
+        {clickButton('6', handleClick)}
+        {clickButton('-', handleClick)}
       </div>
       <div>
-        <Button buttonName="1" handleClick={clickHandler} />
-        <Button buttonName="2" handleClick={clickHandler} />
-        <Button buttonName="3" handleClick={clickHandler} />
-        <Button buttonName="+" handleClick={clickHandler} />
+        {clickButton('1', handleClick)}
+        {clickButton('2', handleClick)}
+        {clickButton('3', handleClick)}
+        {clickButton('+', handleClick)}
       </div>
       <div>
-        <Button buttonName="0" handleClick={clickHandler} />
-        <Button buttonName="." handleClick={clickHandler} />
-        <Button buttonName="=" handleClick={clickHandler} />
+        {clickButton('0', handleClick)}
+        {clickButton('.', handleClick)}
+        {clickButton('=', handleClick)}
       </div>
     </div>
   );
+}
+
+ButtonPanel.propTypes = {
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default ButtonPanel;
