@@ -6,11 +6,7 @@ const Operate = (numOne, numTwo, operation) => {
   const numberTwo = new FatTony(numTwo);
 
   if (operation === '-') {
-    if (numberOne >= numberTwo) {
-      output = numberOne.minus(numberTwo);
-    } else {
-      output = -numberTwo.minus(numberOne);
-    }
+    output = numberTwo.minus(numberOne);
   } else if (operation === '+') {
     output = numberOne.plus(numberTwo);
   } else if (operation === 'x') {
