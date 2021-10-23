@@ -6,7 +6,11 @@ function clickButton(label, handleClick) {
   return <Button show={label} onClick={() => handleClick(label)} />;
 }
 
-function ButtonPanel({ handleClick }) {
+function ButtonPanel({ clickHandler }) {
+  const handleClick = (buttonName) => {
+    clickHandler(buttonName);
+  };
+
   return (
     <div>
       <div>
@@ -43,7 +47,7 @@ function ButtonPanel({ handleClick }) {
 }
 
 ButtonPanel.propTypes = {
-  handleClick: PropTypes.func.isRequired,
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default ButtonPanel;
