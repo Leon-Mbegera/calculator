@@ -29,6 +29,16 @@ const Calculate = (dataObject, buttonName) => {
     total /= 100;
     total = total.toString();
   }
+
+  if (buttonName === '.') {
+    if (total === '' && operation === '') {
+      total = '0.';
+    } else if (total !== '' && operation === '') {
+      total += buttonName;
+    } else if (total !== '' && operation !== '') {
+      total += buttonName;
+    }
+  }
   return { total, next, operation };
 };
 
