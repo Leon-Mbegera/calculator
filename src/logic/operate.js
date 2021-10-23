@@ -12,10 +12,14 @@ const Operate = (numOne, numTwo, operation) => {
   } else if (operation === 'x') {
     output = numberOne.times(numberTwo);
   } else if (operation === '÷') {
-    output = numberOne / numberTwo;
+    if (numberOne > 0) {
+      output = numberTwo.div(numberOne);
+    } else {
+      output = "can't divide by zero";
+    }
   } else if (operation === '%') {
     if (numberOne) {
-      output = numberOne.div(0.01);
+      output = numberOne.div(100);
     } else if (numberTwo) {
       output = numberTwo.div(100);
     }
