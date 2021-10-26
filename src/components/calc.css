@@ -1,0 +1,15 @@
+.border {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  
+}
+
+.display-screen {
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font: bold;
+  text-align:right;
+  padding: 10px 5px;
+}
