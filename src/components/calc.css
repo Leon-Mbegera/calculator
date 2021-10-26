@@ -17,3 +17,8 @@
 .panel-row {
   height: 100px;
 }
+
+.button {
+  width: 25%;
+  height: 100%;
+}
