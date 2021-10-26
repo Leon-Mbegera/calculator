@@ -21,25 +21,25 @@ function ButtonPanel({ clickHandler }) {
           {clickButton('%', handleClick)}
           {clickButton('÷', handleClick)}
         </div>
-        <div>
+        <div className="panel-row">
           {clickButton('7', handleClick)}
           {clickButton('8', handleClick)}
           {clickButton('9', handleClick)}
           {clickButton('x', handleClick)}
         </div>
-        <div>
+        <div className="panel-row">
           {clickButton('4', handleClick)}
           {clickButton('5', handleClick)}
           {clickButton('6', handleClick)}
           {clickButton('-', handleClick)}
         </div>
-        <div>
+        <div className="panel-row">
           {clickButton('1', handleClick)}
           {clickButton('2', handleClick)}
           {clickButton('3', handleClick)}
           {clickButton('+', handleClick)}
         </div>
-        <div>
+        <div className="panel-row">
           {clickButton('0', handleClick)}
           {clickButton('.', handleClick)}
           {clickButton('=', handleClick)}

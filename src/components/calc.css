@@ -13,3 +13,7 @@
   text-align:right;
   padding: 10px 5px;
 }
+
+.panel-row {
+  height: 100px;
+}
