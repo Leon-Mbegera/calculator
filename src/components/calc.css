@@ -10,6 +10,7 @@
   height: 100px;
   color: white;
   font: bold;
+  font-size: 70px;
   text-align:right;
   padding: 10px 5px;
 }
@@ -21,4 +22,5 @@
 .button {
   width: 25%;
   height: 100%;
+  font: 20px bolder Verdana, Geneva, Tahoma, sans-serif;
 }
