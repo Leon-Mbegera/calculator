@@ -7,9 +7,9 @@ const Navigation = () => (
       <h1>Math Magicians</h1>
     </div>
     <div className="links">
-      <Link to="/">Home</Link>
-      <Link to="/App">Calculator</Link>
-      <Link to="/Quote">Quote</Link>
+      <Link to="/" className="nav-link">Home</Link>
+      <Link to="/App" className="nav-link">Calculator</Link>
+      <Link to="/Quote" className="nav-link">Quote</Link>
     </div>
   </div>
 );

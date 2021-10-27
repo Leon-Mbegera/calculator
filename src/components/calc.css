@@ -24,3 +24,19 @@
   height: 100%;
   font: 20px bolder Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  margin: 1.5rem 3rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding-left: 1rem;
+  font: 1.2rem bold Verdana;
+}
+
