@@ -19,9 +19,12 @@ function App() {
   const { total } = state;
   return (
     <>
-      <div className="border">
-        <Display result={total} />
-        <ButtonPanel clickHandler={handleClick} />
+      <div className="contain">
+        <h1 className="heading">Lets do some Math!</h1>
+        <div className="border">
+          <Display result={total} />
+          <ButtonPanel clickHandler={handleClick} />
+        </div>
       </div>
     </>
   );

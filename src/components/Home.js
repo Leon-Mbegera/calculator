@@ -1,12 +1,13 @@
 import React from 'react';
+import './calc.css';
 
 const Home = () => (
   <div>
-    <div>
+    <div className="heading">
       <h1>Welcome to our page!</h1>
     </div>
     <div>
-      <p>
+      <p className="text">
         Math-magicians is a fictional company based in France.
         They have requested your help to build a simple product
         that would assist them with their calculations.

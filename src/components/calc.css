@@ -1,8 +1,11 @@
+* {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .border {
   display: flex;
   flex-direction: column;
-  width: 700px;
-  
+  width: 700px;  
 }
 
 .display-screen {
@@ -37,6 +40,33 @@
 .nav-link {
   text-decoration: none;
   padding-left: 1rem;
-  font: 1.2rem bold Verdana;
+  font: 1.4rem bolder Verdana;
+  color:crimson;
 }
+
+.contain {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin: 0 2rem 0 0;
+}
+
+.title {
+  color:crimson;
+}
+
+.text {
+  color:cadetblue;
+  width: 70%;
+  font-size: 1.3rem;
+}
+
+.welcome {
+  color:cadetblue;
+}
+
+.heading {
+  color:darkcyan;
+}
+
 
