@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test a",
     "eject": "react-scripts eject",
     "eslint": "npx eslint . --fix",
     "lint": "npx stylelint '**/*.{css,scss}' --fix",
