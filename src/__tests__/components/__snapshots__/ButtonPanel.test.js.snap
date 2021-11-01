@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button panel displays all calculator buttons 1`] = `
+exports[`renders Display and ButtonPanel components 1`] = `
 <div
   className="button-panel"
 >
