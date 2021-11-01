@@ -1,20 +1,19 @@
 * {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .border {
   display: flex;
   flex-direction: column;
-  width: 700px;  
+  width: 700px;
 }
 
 .display-screen {
   background-color: gray;
   height: 100px;
   color: white;
-  font: bold;
   font-size: 70px;
-  text-align:right;
+  text-align: right;
   padding: 10px 5px;
 }
 
@@ -40,33 +39,31 @@
 .nav-link {
   text-decoration: none;
   padding-left: 1rem;
-  font: 1.4rem bolder Verdana;
-  color:crimson;
+  font: 1.4rem bold Verdana, Geneva, Tahoma, sans-serif;
+  color: crimson;
 }
 
 .contain {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- margin: 0 2rem 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 2rem 0 0;
 }
 
 .title {
-  color:crimson;
+  color: crimson;
 }
 
 .text {
-  color:cadetblue;
+  color: cadetblue;
   width: 70%;
   font-size: 1.3rem;
 }
 
 .welcome {
-  color:cadetblue;
+  color: cadetblue;
 }
 
 .heading {
-  color:darkcyan;
+  color: darkcyan;
 }
-
-
