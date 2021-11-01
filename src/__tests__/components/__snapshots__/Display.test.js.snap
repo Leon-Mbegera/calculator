@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component Display panel displays all calculator buttons 1`] = `
+<div
+  className="display-screen"
+>
+  0
+</div>
+`;
