@@ -3,8 +3,7 @@
 Built a calculator for Math-magicians Inc using create-react-app. Math-magicians is a fictional company based in France. They have requested help to build a simple product that would assist them with their calculations.
 
 ## Heroku link
-
-[leon's calc](https://leon-calc.herokuapp.com)
+[live demo](https://leon-calc.herokuapp.com)
 
 ![Calculator](src/assets/scrshot.png)
 
@@ -21,7 +20,7 @@ Built a calculator for Math-magicians Inc using create-react-app. Math-magicians
 ## To get started
 - Clone this repository onto your local machine and cd into its directory in your code editor.
 - `$ git clone https://github.com/Leon-Mbegera/calculator.git`
-- `$ cd To-Do-List`
+- `$ cd calculator`
 
 ## Using dependencies
 - Install packages needed:
